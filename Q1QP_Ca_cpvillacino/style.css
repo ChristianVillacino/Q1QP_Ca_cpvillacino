@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Anonymous+Pro:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/norwester');
+*{padding: 0px; margin: 0px;}
+body#home{ /*different bg */
+    background-image: url(q1qpimages/background.png);
+    background-size: cover;
+}
+body#abtmebody{ /*different bg too*/
+    background-image: url(q1qpimages/aboutmebg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+body{
+    background-color: #516E8B;
+}
+.navbar{
+    padding: 5px;
+    background-color: #16181A;
+}
+.navbar img{
+    margin-left: 5%;
+    border-radius: 30px;
+}
+.pages{
+    display: inline;
+}
+.pages a{
+    font-family: 'Alegreya SC', serif;
+    float: right;
+    margin: 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    border: solid 0px;
+}
+.pages a:hover{
+    border: white solid 0.3px;
+    background-color: black;
+}
+.body{
+    padding-left: 55%;
+    padding-top: 10%;
+    margin-bottom: 12.8%;
+}
+.heading{
+    font-size: 3em;
+    color: #DF2A3F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+.subheading{
+    color: white;
+    font-family: 'Norwester', sans-serif;
+    letter-spacing: 1px;
+}
+.footer{
+    padding: 20px;
+}
+.links{
+    display: inline;
+}
+.links a{
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+.links img{
+    border-radius: 30px;
+}
+.copyright{
+    font-family: 'Alegreya SC', serif;
+    color: white;
+}
+.ibody{
+    padding: 5%;
+    padding-bottom: 0%;
+}
+.iheading{
+    margin-left: 10px;
+    font-size: 300%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+.studybackground{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 200%;
+    text-align: justify;
+}
+.mcbody{ 
+    text-align: center;
+    padding: 2.3%;
+}
+.maincon{
+    display: inline;
+    margin: 2.5%;
+}
+.maincon img{
+    border-radius: 15px;
+}
+.maincon a :hover{
+    width: 23%;
+}
+.submcbody{
+    padding: 5%;
+}
+.qnheader{ 
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.7px;
+    text-align: center;
+    font-size: 300%;
+    padding-bottom: 5%;
+}
+.mcsubheading{
+    font-family: 'Alegreya SC', serif;
+    color: white;
+    font-size: 275%;
+}
+.qntables{
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+}
+.qnmeasures{
+    border-collapse: collapse;
+    font-size: 200%;
+    width: 100%;
+}
+.qncont{
+    border: #2f4e6d 1px solid;
+    padding: 1%;
+}
+.qnrow:nth-child(even){ /*applies the style to every 2nd row*/
+    background-color: #2f4e6d;
+}
+.mcinterpretation{
+    padding-top: 2%;
+    color: white;
+    font-size: 200%;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: justify;
+}
+.qngraphs{
+    text-align: center;
+    padding: 3%;
+}
+.qnimgs{
+    display: inline;
+}
+.qnimgs img{
+    border-radius: 20px;
+}
+.qlheader{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.7px;
+    text-align: center;
+    font-size: 300%;
+    padding: 1.5%;
+}
+.qlvariables{
+    text-align: center;
+}
+.qlvariables img{
+    border-radius: 20px;
+    margin: 10px;
+}
+.conclusionsbody{
+    padding: 5%;
+}
+.ccheader{
+    margin-left: 10px;
+    font-size: 300%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+.conclusions{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 200%;
+    text-align: justify;
+}
+.rbody{
+    padding: 5%;
+}
+.rheading{
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+.references{
+    text-align: center;
+}
+.references a{
+    font-family: 'Anonymous Pro', monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+}
+.abody{
+    padding: 5%;
+}
+.aboutimgs {
+    text-align: center;
+}
+.abody img{
+    border-radius: 100%;
+}
+.aboutme{
+    padding-top: 2%;
+    color: white;
+    font-size: 200%;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: justify;
+}
